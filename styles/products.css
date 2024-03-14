@@ -1,0 +1,40 @@
+.override {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Change navbar background color to black */
+.navbar {
+    background-color: #000000 !important;
+}
+
+/* Change navbar text color to white */
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+/* Change navbar toggle icon color to white */
+.navbar-toggler-icon {
+    background-color: #ffffff !important;
+}
+
+.btn1 {
+    color: #ffffff;
+    border: 2px solid white;
+}
+
+.btn1:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid gray;
+
+}
+
+body {
+    background-color: #F4DFC8;
+    font-size: medium;
+}
+
+.box{
+    height: 650px;
+}
