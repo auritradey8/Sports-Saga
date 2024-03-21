@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Sports Saga</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -11,17 +11,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel=stylesheet'' href=path/to/font-awesome/css/font-awesome.min.css''>
-    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="static/styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="static/images/icon.jpg">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <span><img src="../images/icon.jpg" height="50px" width="80px"></span> &nbsp;&nbsp;
+                <span><img src="static/images/icon.jpg" height="50px" width="80px"></span> &nbsp;&nbsp;
                 <a class=" override navbar-brand" href="#"><b>SPORTS SAGA</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -32,43 +33,20 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">Explore More</a>
+                            <a class="nav-link" href="/explore">Explore</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="products.html">Purchase</a>
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="/purchase">Purchase</a>
                         </li>
-                        <button type="button" class="btn btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" class="reach-us btn btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Reach Us
                         </button>
-
                     </ul>
-                    <!-- Modal -->
-                    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    hello
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                     <form class="d-flex" role="search">
-                        <button class="btn1 btn btn-outline-success" type="submit"><a href=login.html>Login</a></button>
+                        <a href="/login" class="btn btn-primary btn-outline-dark active" role="button">Login</a>
                         <i class="fa-solid fa-user"></i>
                         <i class="fa-solid fa-cart-shopping"></i>
                     </form>
@@ -77,13 +55,8 @@
         </nav>
     </header>
 
-
-
-
-
     <main>
-
-        <center> <img src="../images/sports_about.png" class="img-fluid" alt="..."></center>
+        <center> <img src="static/images/sports_about.png" class="img-fluid" alt="..."></center>
         <div class="container-fluid">
             <span class="head">SPORTS EQUIPMENTS, CLOTHING AND ACCESSORIES</span><br>
             <span>Remake your look for less. Whether you're an avid athlete or seeking a fresh streetwear vibe, you'll
@@ -96,14 +69,13 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="../images/basketball.jpeg" alt="Card image cap">
+                            <img class="card-img-top" src="static/images/shoes.avif" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Continue</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div>
@@ -112,14 +84,13 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="../images/badminton.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="static/images/shoes.avif" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Continue</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div>
@@ -128,63 +99,13 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="../images/shoes.avif" alt="Card image cap">
+                            <img class="card-img-top" src="static/images/shoes.avif" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="../images/shoes.avif" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="../images/shoes.avif" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="../images/shoes.avif" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Continue</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div>
@@ -194,16 +115,13 @@
 
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <img class="card-img-top"
-                                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-                                alt="Card image cap">
+                            <img class="card-img-top" src="static/images/shoes.avif" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Continue</button>       
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div>
@@ -212,16 +130,13 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <img class="card-img-top"
-                                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-                                alt="Card image cap">
+                            <img class="card-img-top" src="static/images/shoes.avif" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Continue</button>                                    
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div>
@@ -230,16 +145,13 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <img class="card-img-top"
-                                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-                                alt="Card image cap">
+                            <img class="card-img-top" src="static/images/shoes.avif" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Continue</button>
                                     </div>
                                     <small class="text-muted">9 mins</small>
                                 </div>
@@ -249,32 +161,14 @@
                 </div>
             </div>
         </div>
-        <br>
-
-
-
-
-
-
-
-
-        <br>
-
-
-        <div class="container-fluid"><img src="../images/main-workout.webp" width="100%" class="img-fluid"
-                alt="Responsive image">
-            <span id="bld"><br><br>Work out smarter. And harder.<br></span><br>
-
-            <span>Double down in lightweight, built-tough License To Train.</span><br><br>
-            <button type="button" class="btn5 btn mod-btn"><a href=products.html>SHOP WHAT'S NEW</a></button>
-
-
-
+        <div class="container-fluid"><img src="static/images/main-workout.webp" width="100%" class="img-fluid" alt="Responsive image"></div>
+        
+        <br><div class="hook container-fluid">
+            <span id="bld">Work out smarter. And harder.</span>
         </div>
-
-
-
-
+        <div class="container-fluid">
+            <a href="/purchase" class="btn btn-outline-dark" role="button">SHOP WHAT'S NEW!</a>
+        </div>
         <div class="categories container-fluid">
             <div class="bold container-fluid"><br>OUR SPORTS ACCESSORIES AND APPAREL CATEGORIES</div><br>
             <div class="row">
@@ -289,9 +183,6 @@
                         <li>Cricket Shoes</li>
                         <li>Protective Pads</li>
                         <li>Wicket Keeping Gloves</li>
-
-
-
                     </ul>
                 </div>
                 <div class="col-md-3">
@@ -347,40 +238,6 @@
 
     <!-- Footer -->
     <footer class="override text-center text-lg-start bg-body-tertiary text-muted">
-        <!-- Section: Social media -->
-        <!--section class="override d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                <!-- Left -->
-        <!--div class="override container-fluid d-none d-lg-block">
-                    <span>Gear up for Victory: Your Ultimate Sports Destination!</span>
-                </div>
-                <!-- Left -->
-
-        <!-- Right -->
-        <!--div style="background-color: black;">
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-                
-            <!--/section>
-            <!-- Section: Social media -->
-
-        <!-- Section: Links  -->
         <section class="override">
             <div class="override container-fluid d-none d-lg-block">
                 <span>Gear up for Victory: Your Ultimate Sports Destination!</span>
@@ -392,21 +249,21 @@
             <!-- Right -->
             <div style="background-color: black;">
                 <a href="" class="me-4 text-reset">
-                    <i class="fab fa-facebook-f"><img src="../images/facebook.webp"
+                    <i class="fab fa-facebook-f"><img src="static/images/facebook.webp"
                         height="30px" width="30px"></i>
                 </a>
                 <a href="" class="me-4 text-reset">
-                    <i class="fab fa-twitter"><img src="../images/twitter.png"
+                    <i class="fab fa-twitter"><img src="static/images/twitter.png"
                         height="30px" width="30px"></i>
                 </a>
                
                 <a href="" class="me-4 text-reset">
-                    <i class="fab fa-instagram"><img src="../images/instagram.webp"
+                    <i class="fab fa-instagram"><img src="static/images/instagram.webp"
                         height="30px" width="30px"></i>
                 </a>
                 
             </div>
-            <div class="override container text-center text-md-start mt-5"> <span><img src="../images/icon.jpg"
+            <div class="override container text-center text-md-start mt-5"> <span><img src="static/images/icon.jpg"
                         height="90px" width="150px"></span> &nbsp;&nbsp;
 
                 <!-- Grid row -->

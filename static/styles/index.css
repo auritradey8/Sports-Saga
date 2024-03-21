@@ -1,0 +1,231 @@
+.override {
+    background-color: hsl(0, 0%, 2%);
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+/* Change navbar background color to black */
+.navbar {
+    background-color: #000000 !important;
+}
+
+/* Change navbar text color to white */
+.navbar-nav {
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #F4DFC8;
+}
+
+.hook {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+/* Change navbar toggle icon color to white */
+.navbar-toggler-icon {
+    background-color: #ffffff !important;
+}
+
+.btn1 {
+    color: #ffffff;
+    border: 2px solid white;
+}
+
+.btn1:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid gray;
+
+}
+
+body {
+    background-color: #F4DFC8;
+    font-size: medium;
+}
+
+.btn2 {
+    color: #ffffff;
+
+}
+
+btn2:hover {
+    color: #F4DFC8;
+}
+
+.no {
+    text-decoration: none;
+    color: #000;
+}
+
+.no:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.head {
+    font-size: xx-large;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#bld {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.mod-btn {
+    text-decoration: none;
+    border: 2px solid black;
+    font-weight: 500;
+
+}
+
+.mod-btn:hover {
+    text-decoration: none;
+    border: 2px solid #000000;
+    background-color: #000000;
+    color: #FAF6F0;
+
+}
+
+.categories {
+    height: 300px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 100px;
+    color: black;
+}
+
+.picture {
+    height: 300px;
+    width: 400px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+}
+
+image-box {
+    height: 220px;
+    width: 260px;
+    border: 3px solid black;
+}
+
+.products {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.bold {
+    font-weight: 600;
+
+}
+
+.no-dec {
+    list-style: none;
+}
+
+#bol {
+    font-weight: 500;
+}
+
+.bg-override {
+    background-color: #F4DFC8;
+}
+
+.navbar {
+    --bs-navbar-active-color: white;
+    --bs-navbar-brand-color: white;
+    --bs-navbar-brand-hover-color: white;
+}
+
+.reach-us:hover {
+    color: #F4DFC8;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.text-reset:hover {
+    color: #F4DFC8;
+}
+
+/*Products*/
+.buy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.cart{
+    background-color:yellow;
+    height: 40px;
+    width: 150px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
+}
+.price{
+    color: crimson;
+    font-size: 20px;
+}
+
+h1{
+    background-color:rgb(17, 17, 66);
+    color: azure; 
+}
+
+.img-1{
+    height: 343px;
+    width: 403px;
+    border: 3px solid black;
+}
+
+.cart{
+    background-color:yellow;
+    height: 40px;
+    width: 150px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
+}
+.price{
+    color: crimson;
+    font-size: 20px;
+}
+
+.star{
+    color: rgb(255, 94, 0);
+}
+.co{
+    text-align: center;
+
+}
