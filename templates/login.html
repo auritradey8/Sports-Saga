@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Login</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="/styles/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="static/images/icon.jpg">
+    <link rel="stylesheet" href="static/styles/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
@@ -21,7 +23,8 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class=" override navbar-brand" href="#"><b>SPORTS SAGA</b></a>
+                <span><img src="static/images/icon.jpg" height="50px" width="80px"></span> &nbsp;&nbsp;
+                <a class=" override navbar-brand" href="/"><b>SPORTS SAGA</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -29,44 +32,19 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">Explore More</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="products.html">Purchase</a>
 
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/">Home</a>
                         </li>
-                        <button type="button" class="btn btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/explore">Explore</a>
+                        </li>
+                        <button type="button" class="reach-us btn btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Reach Us
                         </button>
-
                     </ul>
-                    <!-- Modal -->
-                    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    hello
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                     <form class="d-flex" role="search">
-                        <button class="btn1 btn btn-outline-success" type="submit">Login</button>
+                        <a href="/login" class="btn btn-primary btn-outline-dark active" role="button">Login</a>
                         <i class="fa-solid fa-user"></i>
                         <i class="fa-solid fa-cart-shopping"></i>
                     </form>
@@ -74,138 +52,72 @@
             </div>
         </nav>
     </header>
+
     <main>
-        <center>
-            <div class="cn ">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <h2>LOGIN</h2>
-                        </a>
-
-                        <form action="#" method="POST">
-                            <input type="text" size="40PX" name="username" placeholder="  USERNAME*" required><br><br>
-                            <input type="text" size="40PX" name="EMAIL" placeholder=" EMAIL*" required><br><br>
-                            <input type="password" size="40PX" name="password" placeholder=" *PASSWORD"
-                                required><br><br>
-                            <div class="form-check container-fluid">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    Remember Me
-                                </label>
-                            </div><br>
-                            <button type="button" size="30PX" class="btn btn-dark">LOGIN</button><br><br>
-                        </form>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <h2>Create Account</h2>
-                        </a>
-                        <form action="#" method="POST">
-
-                            <input type="text" size="40PX" name="firstname" placeholder=" *FIRST NAME*"
-                                required><br><br>
-                            <input type="text" size="40PX" name="lastname" placeholder=" LAST NAME*" required><br><br>
-                            <input type="text" size="40PX" name="mobile" placeholder=" MOBILE NUMBER*" required><br><br>
-                            <input type="text" size="40PX" name="email" placeholder=" EMAIL*" required><br><br>
-                            <input type="password" size="40PX" name="password" placeholder=" PASSWORD*"
-                                required><br><br>
-                            <span class="gender-label">Gender:</span>&nbsp;&nbsp;
-                            <input type="checkbox" id="male" name="gender" value="male">
-                            <label for="male">Male</label>
-                            <input type="checkbox" id="female" name="gender" value="female">
-                            <label for="female">Female</label>
-                            <input type="checkbox" id="other" name="gender" value="other">
-                            <label for="other">Prefer not to say</label><br><br>
-                            <input type="checkbox" id="mail" >
-                            <span> As an existing customer, I will receive personalized emails & SMS from Sports Saga
-                            </span><br><br>
-                            <button type="button" size="30PX" class="btn btn-dark">CREATE ACCOUNT</button><br><br>
-
-
-                    </li>
-                    
-
-
-
-        </center>
+        <div class="container-fluid col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="row align-items-center g-lg-5 py-5">
+              <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="display-4 fw-bold lh-1 mb-3">Get Started</h1>
+                <p class="col-lg-10 fs-4">
+                    Create an account or sign in to start shopping!
+                </p>
+              </div>
+              <div class="col-md-10 mx-auto col-lg-5">
+                <form action="/session" method="POST" class="p-4 p-md-5 border rounded-3 bg-light">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="passkey">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                  <button class="w-100 btn btn-lg btn-outline-dark" type="submit">Continue</button>
+                  <hr class="my-4">
+                  <small class="text-muted">By clicking Continue, you agree to the <u>terms of use.</u></small>
+                </form>
+              </div>
+            </div>
+          </div>
     </main>
-
-
-
 
     <!-- Footer -->
     <footer class="override text-center text-lg-start bg-body-tertiary text-muted">
-        <!-- Section: Social media -->
-        <!--section class="override d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                <!-- Left -->
-        <!--div class="override container-fluid d-none d-lg-block">
-                    <span>Gear up for Victory: Your Ultimate Sports Destination!</span>
-                </div>
-                <!-- Left -->
-
-        <!-- Right -->
-        <!--div style="background-color: black;">
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-                
-            <!--/section>
-            <!-- Section: Social media -->
-
-        <!-- Section: Links  -->
         <section class="override">
             <div class="override container-fluid d-none d-lg-block">
                 <span>Gear up for Victory: Your Ultimate Sports Destination!</span>
                 <hr>
             </div>
+
             <!-- Left -->
 
             <!-- Right -->
             <div style="background-color: black;">
                 <a href="" class="me-4 text-reset">
-                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-facebook-f"><img src="static/images/facebook.webp"
+                        height="30px" width="30px"></i>
                 </a>
                 <a href="" class="me-4 text-reset">
-                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-twitter"><img src="static/images/twitter.png"
+                        height="30px" width="30px"></i>
                 </a>
+                
                 <a href="" class="me-4 text-reset">
-                    <i class="fab fa-google"></i>
+                    <i class="fab fa-instagram"><img src="static/images/instagram.webp"
+                        height="30px" width="30px"></i>
                 </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-github"></i>
-                </a>
+                
             </div>
-            <div class="override container text-center text-md-start mt-5">
+            <div class="override container text-center text-md-start mt-5"> <span><img src="static/images/icon.jpg"
+                        height="90px" width="150px"></span> &nbsp;&nbsp;
+
                 <!-- Grid row -->
                 <div class="row mt-3">
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <!-- Content -->
                         <h6 class="text-uppercase fw-bold mb-4">
+
                             <i class="fas fa-gem me-3"></i>SPORTS SAGA
                         </h6>
 
@@ -277,10 +189,6 @@
         </div>
         <!-- Copyright -->
     </footer>
-    <!-- Footer -->
-    </footer>
-    <!-- Button trigger modal -->
-
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">

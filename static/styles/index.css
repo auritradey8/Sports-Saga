@@ -185,7 +185,7 @@ image-box {
     gap: 20px;
     flex-wrap: wrap;
 }
-.cart{
+.cart_button{
     background-color:yellow;
     height: 40px;
     width: 150px;
@@ -227,5 +227,7 @@ h1{
 }
 .co{
     text-align: center;
-
+}
+#cart{
+    font-weight: bold;
 }
